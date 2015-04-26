@@ -43,7 +43,6 @@ You should create one R script called run_analysis.R that does the following.
     2. Extracts only the measurements on the mean and standard deviation for each measurement.
     3. Uses descriptive activity names to name the activities in the data set
     4. Appropriately labels the data set with descriptive variable names.
-
     5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
@@ -66,7 +65,8 @@ unzip getdata%2Fprojectfiles%2FUCI\ HAR\ Dataset.zip
 mv UCI\ HAR\ Dataset UCI_HAR_Dataset
 ```
 - start the script `run_analysis.R`,
-- the submission data (point 5 of the task) are saved in a form of csv and txtx data as files `submission.csv`,`submission.txt` respectively .
+- the submission data (point 5 of the task) are saved in a form of csv and txtx data as files `submission.csv`,`submission.txt` respectively,
+- the script `run_analysis.R` returns final data in a form requested by the point 1 of the project evaluation including points 3 and 4.
 
 The repo contains also the file `CodeBook.md` which is 
 a code book that describes the variables and the data.
