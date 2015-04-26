@@ -66,7 +66,7 @@ unzip getdata%2Fprojectfiles%2FUCI\ HAR\ Dataset.zip
 mv UCI\ HAR\ Dataset UCI_HAR_Dataset
 ```
 - start the script `run_analysis.R`,
-- the submission data (point 5 of the task) are saved in a form of csv data as a file `submission.csv` .
+- the submission data (point 5 of the task) are saved in a form of csv and txtx data as files `submission.csv`,`submission.txt` respectively .
 
 The repo contains also the file `CodeBook.md` which is 
 a code book that describes the variables and the data.
