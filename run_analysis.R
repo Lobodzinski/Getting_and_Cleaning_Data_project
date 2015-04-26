@@ -53,7 +53,7 @@ Data$activity <- ifelse(Data$activity == 1,"WALKING",
                                                             ifelse(Data$activity == 6,"LAYING",Data$activity))))))
 
 
-# answer: Data
+# answer: it is equivalent to Data
 
 # 2.
 # Task: Extracts only the measurements on the mean and standard deviation for each measurement.
