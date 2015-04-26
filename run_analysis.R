@@ -80,3 +80,6 @@ Result<-aggregate(Data.x, Data.s, mean)
 # saving the Result data:
 write.csv(Result,file='submission.csv', quote=FALSE,row.names=FALSE)
 write.table(Result,file = "submission.txt",row.names=FALSE)
+
+# output resulting Data (large part of data !):
+Data
